@@ -1,0 +1,45 @@
+<!--
+// Popup html file for AWS AI Services Chrome Extension
+// Ceyhun OZGUN
+// August 2018
+// https://github.com/ceyhunozgun/awsAIChromeExtension
+-->
+<html>
+<head>
+	<script src="jquery.min.js"></script>
+	<script src="jquery-ui.min.js"></script>
+	<script src="common.js"></script>
+	<script src="popup.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery-ui.css" />
+	<style>
+		html {
+			width: 400px;
+			height: 220px;
+		}
+		body {
+			font-family: sans-serif, monospace;
+			font-size: 14px;
+		}
+		input, select {
+			min-width: 360px;
+			padding: 2px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<p><b>Enter Your AWS Credentials</b></p>
+		<span>AWS Access Key Id</span><br/>
+		<input id="awsAccessKeyId"/><br/>
+		<br/>
+		<span>AWS Secret Access Key</span><br/>
+		<input id="awsSecretAccessKey"/><br/>
+		<br/>
+		<span>AWS Region</span><br/>
+		<input id="awsRegion"/>
+		<br/>
+		<br/>
+		<button id="saveBtn">Save</button>
+	</div>
+</body>
+</html>

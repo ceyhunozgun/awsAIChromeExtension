@@ -1,0 +1,57 @@
+/*
+// CSS file for AWS AI Services Chrome Extension
+// Ceyhun OZGUN
+// August 2018
+// https://github.com/ceyhunozgun/awsAIChromeExtension
+*/
+.awsAIExt_center {
+	width: 400px;
+    margin: 0 auto;
+    position: relative;
+	text-align: center;
+	padding: 4px;
+	font-family: Verdana;
+	font-size: 18px;	
+}
+.awsAIExt_center textarea {
+	padding: 4px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+	font-family: Verdana;
+	font-size: 18px;
+	vertical-align: middle;
+}
+
+.awsAIExt_center select {
+	padding: 4px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+	font-family: Verdana;
+	font-size: 18px;
+	width: 40%;
+}
+
+.awsAIExt_center button {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	vertical-align: middle;
+	font-size: 20px;
+	padding: 8px;
+	margin: 8px;
+}
+
+.awsAIExt_spkr {
+	width: 32px; 
+	height: 32px; 
+	border: 1px solid white;
+	vertical-align: middle;
+}
+
+.awsAIExt_spkr:hover {
+	border: 1px solid gray;
+}
